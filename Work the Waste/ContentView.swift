@@ -21,31 +21,48 @@ struct ContentView: View {
                         .aspectRatio(contentMode: .fit)
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                         .frame(width: 175.0, height: 175.0)
-                        .cornerRadius(1000)
+                        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                    
                     
                     Image("title")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 250.0)
+                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                        .frame(width: 300.0)
                     
-                    Button("Why Recycle?") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                  
+                    NavigationLink(destination: whyrecycle()) {
+                        Image("whyr")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .frame(width: 250.0)
+                            
                     }
-                    .buttonStyle(.borderedProminent)
-                    .tint(.teal)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     
-                    Button("Working the Waste") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    
+                    NavigationLink(destination: selectscreen()) {
+                        Image("workingtw")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .frame(width: 250.0)
+                            
                     }
-                    .buttonStyle(.borderedProminent)
-                    .tint(.teal)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     
-                    Button("Sustainable Fashion") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    
+                    NavigationLink(destination: sustainablefashion()) {
+                        Image("sfashion")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .frame(width: 250.0)
                     }
-                    .buttonStyle(.borderedProminent)
-                    .tint(.teal)
-                    
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            
+                   
                 }
                 
             }
