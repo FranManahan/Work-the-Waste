@@ -14,9 +14,9 @@ struct sustainablefashion: View {
                 .ignoresSafeArea()
               ScrollView {
                 VStack {
-                  Text("Sustainable Fashion!")
-                    .font(.title)
-                    .fontWeight(.bold)
+                    Image("sfheader")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
                   Image("sfashionheader")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
