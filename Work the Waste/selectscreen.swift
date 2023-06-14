@@ -56,8 +56,11 @@ struct selectscreen: View {
                                 .cornerRadius(15)
                         }
                         
+                        Spacer()
                         
                     }
+                    
+    
                     
                     VStack{
                         Image("liquidWaste")
@@ -88,9 +91,24 @@ struct selectscreen: View {
                                 .frame(width: 175.0)
                                 .cornerRadius(15)
                         }
-
+                        
+                        VStack {
+                            Image("solidWaste")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 175.0)
+                                .cornerRadius(15)
+                            
+                            NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                                Image("solwastebutton")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 175.0)
+                                    .cornerRadius(15)
+                            }
                             
                             
+                        }
                         }
                     }
                 .padding()
