@@ -49,7 +49,7 @@ struct selectscreen: View {
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(15)
                         
-                        NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                        NavigationLink(destination: hazardouswaste()) {
                             Image("hazwastebutton")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
@@ -69,7 +69,7 @@ struct selectscreen: View {
                             .frame(width: 175.0)
                             .cornerRadius(15)
                         
-                        NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                        NavigationLink(destination: liquidwaste()) {
                             Image("liqwastebutton")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
@@ -84,7 +84,7 @@ struct selectscreen: View {
                                 .cornerRadius(15)
                         
                         
-                        NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                        NavigationLink(destination: recyclablewaste()) {
                             Image("recwastebutton")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
@@ -92,14 +92,14 @@ struct selectscreen: View {
                                 .cornerRadius(15)
                         }
                         
-                        VStack {
+                        VStack() {
                             Image("solidWaste")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 175.0)
                                 .cornerRadius(15)
                             
-                            NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                            NavigationLink(destination: solidwaste()) {
                                 Image("solwastebutton")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)

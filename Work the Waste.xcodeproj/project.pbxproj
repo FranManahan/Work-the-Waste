@@ -18,6 +18,8 @@
 		BD395DEE2A3A1CFF0029034A /* solidwaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD395DED2A3A1CFF0029034A /* solidwaste.swift */; };
 		BD395DF02A3A1D080029034A /* recyclablewaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD395DEF2A3A1D080029034A /* recyclablewaste.swift */; };
 		BD395DF22A3A1D100029034A /* hazardouswaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD395DF12A3A1D100029034A /* hazardouswaste.swift */; };
+		BD395DF52A3A3E200029034A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD395DF42A3A3E200029034A /* Roboto-Regular.ttf */; };
+		BD395DF82A3A490C0029034A /* DecompositionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD395DF72A3A490C0029034A /* DecompositionCalculator.swift */; };
 		BDC1D75C2A390BB200226A87 /* organicwaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC1D75B2A390BB200226A87 /* organicwaste.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,9 @@
 		BD395DED2A3A1CFF0029034A /* solidwaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solidwaste.swift; sourceTree = "<group>"; };
 		BD395DEF2A3A1D080029034A /* recyclablewaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recyclablewaste.swift; sourceTree = "<group>"; };
 		BD395DF12A3A1D100029034A /* hazardouswaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hazardouswaste.swift; sourceTree = "<group>"; };
+		BD395DF42A3A3E200029034A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BD395DF62A3A3E5F0029034A /* Work-the-Waste-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Work-the-Waste-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BD395DF72A3A490C0029034A /* DecompositionCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecompositionCalculator.swift; sourceTree = "<group>"; };
 		BDC1D75B2A390BB200226A87 /* organicwaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = organicwaste.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +72,8 @@
 		BD2AC43D2A37B59B00064D10 /* Work the Waste */ = {
 			isa = PBXGroup;
 			children = (
+				BD395DF62A3A3E5F0029034A /* Work-the-Waste-Info.plist */,
+				BD395DF32A3A3E040029034A /* Custom Fonts */,
 				BD2AC43E2A37B59B00064D10 /* Work_the_WasteApp.swift */,
 				BD2AC4402A37B59B00064D10 /* ContentView.swift */,
 				BD0E520A2A38BA6500DB0965 /* whyrecycle.swift */,
@@ -77,6 +84,7 @@
 				BD395DEF2A3A1D080029034A /* recyclablewaste.swift */,
 				BD395DF12A3A1D100029034A /* hazardouswaste.swift */,
 				BD0E520C2A38BF4100DB0965 /* sustainablefashion.swift */,
+				BD395DF72A3A490C0029034A /* DecompositionCalculator.swift */,
 				BD2AC4422A37B59B00064D10 /* Assets.xcassets */,
 				BD2AC4442A37B59B00064D10 /* Preview Content */,
 			);
@@ -89,6 +97,14 @@
 				BD2AC4452A37B59B00064D10 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD395DF32A3A3E040029034A /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD395DF42A3A3E200029034A /* Roboto-Regular.ttf */,
+			);
+			path = "Custom Fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD395DF52A3A3E200029034A /* Roboto-Regular.ttf in Resources */,
 				BD2AC4462A37B59B00064D10 /* Preview Assets.xcassets in Resources */,
 				BD2AC4432A37B59B00064D10 /* Assets.xcassets in Resources */,
 			);
@@ -170,6 +187,7 @@
 				BD0E520B2A38BA6500DB0965 /* whyrecycle.swift in Sources */,
 				BD0E520D2A38BF4100DB0965 /* sustainablefashion.swift in Sources */,
 				BD2AC43F2A37B59B00064D10 /* Work_the_WasteApp.swift in Sources */,
+				BD395DF82A3A490C0029034A /* DecompositionCalculator.swift in Sources */,
 				BD395DF02A3A1D080029034A /* recyclablewaste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +319,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Work the Waste/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Work-the-Waste-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -329,6 +349,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Work the Waste/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Work-the-Waste-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

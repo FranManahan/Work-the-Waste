@@ -21,7 +21,7 @@ struct ContentView: View {
                         .aspectRatio(contentMode: .fit)
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                         .frame(width: 175.0, height: 175.0)
-                        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 5)
                     
                     
                     Image("title")
@@ -37,6 +37,7 @@ struct ContentView: View {
                             .aspectRatio(contentMode: .fit)
                             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                             .frame(width: 250.0)
+                            .cornerRadius(15)
                             
                     }
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -48,6 +49,7 @@ struct ContentView: View {
                             .aspectRatio(contentMode: .fit)
                             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                             .frame(width: 250.0)
+                            .cornerRadius(15)
                             
                     }
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
