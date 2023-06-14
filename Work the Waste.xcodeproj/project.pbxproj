@@ -10,6 +10,7 @@
 		BD0E52092A38BA1A00DB0965 /* selectscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E52082A38BA1A00DB0965 /* selectscreen.swift */; };
 		BD0E520B2A38BA6500DB0965 /* whyrecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E520A2A38BA6500DB0965 /* whyrecycle.swift */; };
 		BD0E520D2A38BF4100DB0965 /* sustainablefashion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E520C2A38BF4100DB0965 /* sustainablefashion.swift */; };
+		BD2418882A3A129E00FC4442 /* liquidwaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2418872A3A129E00FC4442 /* liquidwaste.swift */; };
 		BD2AC43F2A37B59B00064D10 /* Work_the_WasteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AC43E2A37B59B00064D10 /* Work_the_WasteApp.swift */; };
 		BD2AC4412A37B59B00064D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AC4402A37B59B00064D10 /* ContentView.swift */; };
 		BD2AC4432A37B59B00064D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2AC4422A37B59B00064D10 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		BD0E52082A38BA1A00DB0965 /* selectscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectscreen.swift; sourceTree = "<group>"; };
 		BD0E520A2A38BA6500DB0965 /* whyrecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whyrecycle.swift; sourceTree = "<group>"; };
 		BD0E520C2A38BF4100DB0965 /* sustainablefashion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sustainablefashion.swift; sourceTree = "<group>"; };
+		BD2418872A3A129E00FC4442 /* liquidwaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liquidwaste.swift; sourceTree = "<group>"; };
 		BD2AC43B2A37B59B00064D10 /* Work the Waste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work the Waste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2AC43E2A37B59B00064D10 /* Work_the_WasteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_the_WasteApp.swift; sourceTree = "<group>"; };
 		BD2AC4402A37B59B00064D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				BD0E520A2A38BA6500DB0965 /* whyrecycle.swift */,
 				BD0E52082A38BA1A00DB0965 /* selectscreen.swift */,
 				BDC1D75B2A390BB200226A87 /* organicwaste.swift */,
+				BD2418872A3A129E00FC4442 /* liquidwaste.swift */,
 				BD0E520C2A38BF4100DB0965 /* sustainablefashion.swift */,
 				BD2AC4422A37B59B00064D10 /* Assets.xcassets */,
 				BD2AC4442A37B59B00064D10 /* Preview Content */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2AC4412A37B59B00064D10 /* ContentView.swift in Sources */,
+				BD2418882A3A129E00FC4442 /* liquidwaste.swift in Sources */,
 				BD0E52092A38BA1A00DB0965 /* selectscreen.swift in Sources */,
 				BDC1D75C2A390BB200226A87 /* organicwaste.swift in Sources */,
 				BD0E520B2A38BA6500DB0965 /* whyrecycle.swift in Sources */,
