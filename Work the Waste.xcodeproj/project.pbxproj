@@ -15,6 +15,9 @@
 		BD2AC4412A37B59B00064D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AC4402A37B59B00064D10 /* ContentView.swift */; };
 		BD2AC4432A37B59B00064D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2AC4422A37B59B00064D10 /* Assets.xcassets */; };
 		BD2AC4462A37B59B00064D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2AC4452A37B59B00064D10 /* Preview Assets.xcassets */; };
+		BD395DEE2A3A1CFF0029034A /* solidwaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD395DED2A3A1CFF0029034A /* solidwaste.swift */; };
+		BD395DF02A3A1D080029034A /* recyclablewaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD395DEF2A3A1D080029034A /* recyclablewaste.swift */; };
+		BD395DF22A3A1D100029034A /* hazardouswaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD395DF12A3A1D100029034A /* hazardouswaste.swift */; };
 		BDC1D75C2A390BB200226A87 /* organicwaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC1D75B2A390BB200226A87 /* organicwaste.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +31,9 @@
 		BD2AC4402A37B59B00064D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD2AC4422A37B59B00064D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2AC4452A37B59B00064D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD395DED2A3A1CFF0029034A /* solidwaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solidwaste.swift; sourceTree = "<group>"; };
+		BD395DEF2A3A1D080029034A /* recyclablewaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recyclablewaste.swift; sourceTree = "<group>"; };
+		BD395DF12A3A1D100029034A /* hazardouswaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hazardouswaste.swift; sourceTree = "<group>"; };
 		BDC1D75B2A390BB200226A87 /* organicwaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = organicwaste.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +73,9 @@
 				BD0E52082A38BA1A00DB0965 /* selectscreen.swift */,
 				BDC1D75B2A390BB200226A87 /* organicwaste.swift */,
 				BD2418872A3A129E00FC4442 /* liquidwaste.swift */,
+				BD395DED2A3A1CFF0029034A /* solidwaste.swift */,
+				BD395DEF2A3A1D080029034A /* recyclablewaste.swift */,
+				BD395DF12A3A1D100029034A /* hazardouswaste.swift */,
 				BD0E520C2A38BF4100DB0965 /* sustainablefashion.swift */,
 				BD2AC4422A37B59B00064D10 /* Assets.xcassets */,
 				BD2AC4442A37B59B00064D10 /* Preview Content */,
@@ -154,11 +163,14 @@
 			files = (
 				BD2AC4412A37B59B00064D10 /* ContentView.swift in Sources */,
 				BD2418882A3A129E00FC4442 /* liquidwaste.swift in Sources */,
+				BD395DEE2A3A1CFF0029034A /* solidwaste.swift in Sources */,
 				BD0E52092A38BA1A00DB0965 /* selectscreen.swift in Sources */,
+				BD395DF22A3A1D100029034A /* hazardouswaste.swift in Sources */,
 				BDC1D75C2A390BB200226A87 /* organicwaste.swift in Sources */,
 				BD0E520B2A38BA6500DB0965 /* whyrecycle.swift in Sources */,
 				BD0E520D2A38BF4100DB0965 /* sustainablefashion.swift in Sources */,
 				BD2AC43F2A37B59B00064D10 /* Work_the_WasteApp.swift in Sources */,
+				BD395DF02A3A1D080029034A /* recyclablewaste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
