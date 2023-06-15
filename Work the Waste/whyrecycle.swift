@@ -117,15 +117,40 @@ struct whyrecycle: View {
                                         .foregroundColor(Color("textcolor"))
                                         .multilineTextAlignment(.center)
                                         .padding()
-                                    Text("What are examples of efficient recycling systems? Check out this country! Germany has one of the highest rates of recycling in the world, with over 50% of its population recycling. In the 1990s, the German government made corporations check how much waste they were producing from their products. The German Packaging Act in 2019 holds companies responsible for promoting eco-viable products- thereby, the less waste, the less the companies have to pay up for it. Germany has worked to limit single-use plastics in packaging. Their 'Green Dot Policy' means any products that can be recycled needs to be approved and be marked with the Green Dot.")
-                                        .font(.headline)
-                                        .foregroundColor(Color("textcolor"))
-                                        .multilineTextAlignment(.center)
-                                        .padding()
                                 }
                                 
                             }
                             .cornerRadius(15)
+                            
+                            Image("thinkaboutit")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                            
+                            ZStack { Color(red: 0.91764705882, green: 0.90588235294, blue: 0.69411764705)
+                                VStack{
+                                    Text("Think through these questions each week about your sustainability habits.")
+                                        .fontWeight(.semibold)
+                                        .foregroundColor(Color("textcolor"))
+                                        .multilineTextAlignment(.center)
+                                    Text("How much did I recycle?")
+                                        .fontWeight(.semibold)
+                                        .foregroundColor(Color("textcolor"))
+                                    Text("When did I recycle?")
+                                        .fontWeight(.semibold)
+                                        .foregroundColor(Color("textcolor"))
+                                        .multilineTextAlignment(.center)
+                                    Text("When does the trash collection come each week?")
+                                        .fontWeight(.semibold)
+                                        .foregroundColor(Color("textcolor"))
+                                        .multilineTextAlignment(.center)
+                                    Text("Do I know what I can recycle and what I can't?")
+                                        .fontWeight(.semibold)
+                                        .foregroundColor(Color("textcolor"))
+                                        .multilineTextAlignment(.center)
+                                }
+                                .padding()
+                            }
+                            .cornerRadius(10)
                             
                             NavigationLink(destination: ContentView()) {
                                 Image("homescreen")
