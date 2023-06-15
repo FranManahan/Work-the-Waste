@@ -13,94 +13,30 @@ import SwiftUI
 struct selectscreen: View {
     var body: some View {
         
-        ZStack {
-            Color(red: 0.23529411764, green: 0.38431372549, blue: 0.33333333333)
-                .ignoresSafeArea()
-            
-            VStack {
+        NavigationStack {
+            ZStack {
+                Color(red: 0.23529411764, green: 0.38431372549, blue: 0.33333333333)
+                    .ignoresSafeArea()
                 
-                Image("selectcategory")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                    .frame(height: 150.0)
-                
-                HStack{
+                VStack {
                     
+                    Image("selectcategory")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 150.0)
                     
-                    VStack{
-                        Image("organicWaste")
-                            .resizable( resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 175.0)
-                            .cornerRadius(15)
-                        
-                        NavigationLink(destination: organicwaste()) {
-                            Image("orgwastebutton")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 175.0)
-                                .cornerRadius(15)
-                        }
+                    HStack{
                         
                         
-                        
-                        Image("hazardousWaste")
-                            .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                            .cornerRadius(15)
-                        
-                        NavigationLink(destination: hazardouswaste()) {
-                            Image("hazwastebutton")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .cornerRadius(15)
-                        }
-                        
-                        Spacer()
-                        
-                    }
-                    
-    
-                    
-                    VStack{
-                        Image("liquidWaste")
-                            .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 175.0)
-                            .cornerRadius(15)
-                        
-                        NavigationLink(destination: liquidwaste()) {
-                            Image("liqwastebutton")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 175.0)
-                                .cornerRadius(15)
-                        }
-                       
-                            
-                            Image("recyclableWaste")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .cornerRadius(15)
-                        
-                        
-                        NavigationLink(destination: recyclablewaste()) {
-                            Image("recwastebutton")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 175.0)
-                                .cornerRadius(15)
-                        }
-                        
-                        VStack() {
-                            Image("solidWaste")
-                                .resizable(resizingMode: .stretch)
+                        VStack{
+                            Image("organicWaste")
+                                .resizable( resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 175.0)
                                 .cornerRadius(15)
                             
-                            NavigationLink(destination: solidwaste()) {
-                                Image("solwastebutton")
+                            NavigationLink(destination: organicwaste()) {
+                                Image("orgwastebutton")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 175.0)
@@ -108,15 +44,102 @@ struct selectscreen: View {
                             }
                             
                             
+                            
+                            Image("hazardousWaste")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .cornerRadius(15)
+                            
+                            NavigationLink(destination: hazardouswaste()) {
+                                Image("hazwastebutton")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .cornerRadius(15)
+                            }
+                            
+
+                            
+                            
+                            Image("solidWaste")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 175.0)
+                                .cornerRadius(15)
+                            
+                            NavigationLink(destination: solidwaste()) {
+                                Image("sources")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 175.0)
+                                    .cornerRadius(15)
+                            }
+                            
                         }
+                        
+                        
+                        
+                        VStack{
+                            Image("liquidWaste")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 175.0)
+                                .cornerRadius(15)
+                            
+                            NavigationLink(destination: liquidwaste()) {
+                                Image("liqwastebutton")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 175.0)
+                                    .cornerRadius(15)
+                            }
+                            
+                            
+                            Image("recyclableWaste")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .cornerRadius(15)
+                            
+                            
+                            NavigationLink(destination: recyclablewaste()) {
+                                Image("recwastebutton")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 175.0)
+                                    .cornerRadius(15)
+                            }
+                            
+    
+                            HStack() {
+                                VStack() {
+                                    
+                                    
+                                    Image("solidWaste")
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 175.0)
+                                        .cornerRadius(15)
+                                    
+                                    
+                                    
+                                    
+                                    
+                                }
+                                
+                                
+    
+    
+                                
+                            }
+                            
+                            
                         }
                     }
-                .padding()
+                    .padding()
                 }
                 
             }
             
-            
+        }
             
         }
         

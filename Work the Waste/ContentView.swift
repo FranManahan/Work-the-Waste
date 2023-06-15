@@ -19,37 +19,49 @@ struct ContentView: View {
                     Image("wtw icon")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
-                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        .frame(width: 175.0, height: 175.0)
-                        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 5)
+                        .cornerRadius(300)
+                        .padding([.top, .leading, .trailing])
+                        .frame(width: 250.0)
                     
                     
                     Image("title")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        .frame(width: 300.0)
+                        .frame(width: 350.0)
+                    
+                    let recycleTips = ["Recycle more!", "Throw away less!", "Be more sustainable!", "Buy less!", "Use a reusable bottle!", "Shop at your local farmer's market!", "Make smart purchases!", "Spread the word to others about going green!", "Turn off lights when you're not in a room!"]
+                          let randomRecycle = recycleTips.randomElement()
+                          VStack {
+                              Text(randomRecycle!)
+                                  .font(.title2)
+                                  .fontWeight(.semibold)
+                                  .foregroundColor(Color("textcolor2"))
+                                  .multilineTextAlignment(.center)
+                                  
+                              
+                          }
                     
                   
                     NavigationLink(destination: whyrecycle()) {
                         Image("whyr")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
+                            .cornerRadius(10)
                             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                            .frame(width: 250.0)
-                            .cornerRadius(15)
+                            .frame(width: 300.0)
                             
                     }
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     
                     
                     NavigationLink(destination: selectscreen()) {
-                        Image("workingtw")
+                        Image("wastecategories")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
+                            .cornerRadius(10)
                             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                            .frame(width: 250.0)
-                            .cornerRadius(15)
+                            .frame(width: 300.0)
                             
                     }
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -59,14 +71,17 @@ struct ContentView: View {
                         Image("sfashion")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
+                            .cornerRadius(10)
                             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                            .frame(width: 250.0)
+                            .frame(width: 300.0)
                     }
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             
                    
                 }
-                
+                .navigationTitle("Home")
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationBarHidden(true)
             }
         }
     }

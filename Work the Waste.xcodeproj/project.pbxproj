@@ -20,6 +20,11 @@
 		BD395DF22A3A1D100029034A /* hazardouswaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD395DF12A3A1D100029034A /* hazardouswaste.swift */; };
 		BD395DF52A3A3E200029034A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD395DF42A3A3E200029034A /* Roboto-Regular.ttf */; };
 		BD395DF82A3A490C0029034A /* DecompositionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD395DF72A3A490C0029034A /* DecompositionCalculator.swift */; };
+		BD494BCD2A3B5BC900073450 /* uglyfood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD494BCC2A3B5BC900073450 /* uglyfood.swift */; };
+		BD494BCF2A3B5BDD00073450 /* makingfoodlast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD494BCE2A3B5BDD00073450 /* makingfoodlast.swift */; };
+		BD494BD12A3B6BF600073450 /* fashionbrands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD494BD02A3B6BF600073450 /* fashionbrands.swift */; };
+		BD494BD32A3B70B700073450 /* sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD494BD22A3B70B700073450 /* sources.swift */; };
+		BD494BD72A3B772A00073450 /* Playfair-VariableFont_opsz,wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD494BD62A3B772A00073450 /* Playfair-VariableFont_opsz,wdth,wght.ttf */; };
 		BDC1D75C2A390BB200226A87 /* organicwaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC1D75B2A390BB200226A87 /* organicwaste.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +44,11 @@
 		BD395DF42A3A3E200029034A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		BD395DF62A3A3E5F0029034A /* Work-the-Waste-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Work-the-Waste-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BD395DF72A3A490C0029034A /* DecompositionCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecompositionCalculator.swift; sourceTree = "<group>"; };
+		BD494BCC2A3B5BC900073450 /* uglyfood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uglyfood.swift; sourceTree = "<group>"; };
+		BD494BCE2A3B5BDD00073450 /* makingfoodlast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makingfoodlast.swift; sourceTree = "<group>"; };
+		BD494BD02A3B6BF600073450 /* fashionbrands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionbrands.swift; sourceTree = "<group>"; };
+		BD494BD22A3B70B700073450 /* sources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sources.swift; sourceTree = "<group>"; };
+		BD494BD62A3B772A00073450 /* Playfair-VariableFont_opsz,wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Playfair-VariableFont_opsz,wdth,wght.ttf"; sourceTree = "<group>"; };
 		BDC1D75B2A390BB200226A87 /* organicwaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = organicwaste.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,14 +86,18 @@
 				BD395DF32A3A3E040029034A /* Custom Fonts */,
 				BD2AC43E2A37B59B00064D10 /* Work_the_WasteApp.swift */,
 				BD2AC4402A37B59B00064D10 /* ContentView.swift */,
+				BD494BD22A3B70B700073450 /* sources.swift */,
 				BD0E520A2A38BA6500DB0965 /* whyrecycle.swift */,
 				BD0E52082A38BA1A00DB0965 /* selectscreen.swift */,
 				BDC1D75B2A390BB200226A87 /* organicwaste.swift */,
+				BD494BCE2A3B5BDD00073450 /* makingfoodlast.swift */,
+				BD494BCC2A3B5BC900073450 /* uglyfood.swift */,
 				BD2418872A3A129E00FC4442 /* liquidwaste.swift */,
 				BD395DED2A3A1CFF0029034A /* solidwaste.swift */,
 				BD395DEF2A3A1D080029034A /* recyclablewaste.swift */,
 				BD395DF12A3A1D100029034A /* hazardouswaste.swift */,
 				BD0E520C2A38BF4100DB0965 /* sustainablefashion.swift */,
+				BD494BD02A3B6BF600073450 /* fashionbrands.swift */,
 				BD395DF72A3A490C0029034A /* DecompositionCalculator.swift */,
 				BD2AC4422A37B59B00064D10 /* Assets.xcassets */,
 				BD2AC4442A37B59B00064D10 /* Preview Content */,
@@ -103,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				BD395DF42A3A3E200029034A /* Roboto-Regular.ttf */,
+				BD494BD62A3B772A00073450 /* Playfair-VariableFont_opsz,wdth,wght.ttf */,
 			);
 			path = "Custom Fonts";
 			sourceTree = "<group>";
@@ -167,6 +182,7 @@
 			files = (
 				BD395DF52A3A3E200029034A /* Roboto-Regular.ttf in Resources */,
 				BD2AC4462A37B59B00064D10 /* Preview Assets.xcassets in Resources */,
+				BD494BD72A3B772A00073450 /* Playfair-VariableFont_opsz,wdth,wght.ttf in Resources */,
 				BD2AC4432A37B59B00064D10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,10 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD494BCF2A3B5BDD00073450 /* makingfoodlast.swift in Sources */,
 				BD2AC4412A37B59B00064D10 /* ContentView.swift in Sources */,
+				BD494BD12A3B6BF600073450 /* fashionbrands.swift in Sources */,
 				BD2418882A3A129E00FC4442 /* liquidwaste.swift in Sources */,
+				BD494BCD2A3B5BC900073450 /* uglyfood.swift in Sources */,
 				BD395DEE2A3A1CFF0029034A /* solidwaste.swift in Sources */,
 				BD0E52092A38BA1A00DB0965 /* selectscreen.swift in Sources */,
+				BD494BD32A3B70B700073450 /* sources.swift in Sources */,
 				BD395DF22A3A1D100029034A /* hazardouswaste.swift in Sources */,
 				BDC1D75C2A390BB200226A87 /* organicwaste.swift in Sources */,
 				BD0E520B2A38BA6500DB0965 /* whyrecycle.swift in Sources */,
