@@ -22,9 +22,14 @@ struct fashionbrands: View {
                         
                         ZStack { Color(red: 0.91764705882, green: 0.90588235294, blue: 0.69411764705)
                             VStack{
-                                Text("TEST")
+                                Text("These sustainable brands are helping the environment by being made of sustainable / recyclable materials and being aware of their impact on nature.")
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(Color("textcolor"))
+                                    .multilineTextAlignment(.center)
+                                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                             }
                         }
+                        .cornerRadius(10)
                         
                         ZStack { Color(red: 0.91764705882, green: 0.90588235294, blue: 0.69411764705)
                             VStack{

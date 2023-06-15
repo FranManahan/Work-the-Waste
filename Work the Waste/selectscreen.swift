@@ -3,10 +3,6 @@
 //  Work the Waste
 //
 //  Created by scholar on 6/13/23.
-//https://foodtank.com/wp-content/uploads/2022/05/Food-As-Medicine-Featured.jpg
-//https://prosservices.com/wp-content/uploads/2022/02/liquid-waste-disposal-Pros-Services.png
-//https://cdn.britannica.com/25/109325-050-E833ECE5/glass-containers-recycling-bin.jpg
-//https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.newindianexpress.com%2Fstates%2Ftamil-nadu%2F2023%2Fjun%2F12%2Fthird-tender-for-solid-waste-management-floated-in-madurai-2584048.html&psig=AOvVaw2xpG-ciVAHikmZ0ExhcFtH&ust=1686761783387000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCJiyhNDbwP8CFQAAAAAdAAAAABAD
 
 import SwiftUI
 
@@ -60,14 +56,14 @@ struct selectscreen: View {
 
                             
                             
-                            Image("solidWaste")
+                            Image("notes")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 175.0)
                                 .cornerRadius(15)
                             
-                            NavigationLink(destination: solidwaste()) {
-                                Image("sources")
+                            NavigationLink(destination: sources()) {
+                                Image("sourcesbutton")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 175.0)
@@ -119,7 +115,13 @@ struct selectscreen: View {
                                         .frame(width: 175.0)
                                         .cornerRadius(15)
                                     
-                                    
+                                    NavigationLink(destination: recyclablewaste()) {
+                                        Image("solwastebutton")
+                                            .resizable(resizingMode: .stretch)
+                                            .aspectRatio(contentMode: .fit)
+                                            .frame(width: 175.0)
+                                            .cornerRadius(15)
+                                    }
                                     
                                     
                                     

@@ -22,7 +22,7 @@ struct uglyfood: View {
                     
                     ZStack { Color(red: 0.91764705882, green: 0.90588235294, blue: 0.69411764705)
                         VStack {
-                            Text("The ugly food movement is about unconventional looking food. All of it is still safe to eat, yet many people don't buy it at the market because it looks bad.")
+                            Text("The ugly food movement is about unconventional looking food. All of it is still safe to eat, yet many people don't buy it at the market because it looks bad. By doing this, they waste perfectly good produce!")
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color("textcolor"))
                                 .multilineTextAlignment(.center)
@@ -40,7 +40,7 @@ struct uglyfood: View {
                   HStack {
                     ZStack { Color(red: 0.91764705882, green: 0.90588235294, blue: 0.69411764705)
                         VStack {
-                        Text("The ugly food movement highlights how certain foods are either thrown out or not purchased due to cosmetic standards- even though they are perfectly edible. The 'Ugly' Fruit and Veg campaign aims to end food waste solely based on grocery standards and what they look like. Some large grocer corporations such as Whole Foods are working to include a larger variety of fruits and vegetables. Nonprofits like the Misfit Market aims to sell produce at up to 40% lower prices due to the fact they accept unconventional-appearing produce. Now despite the appearance, these produce items taste exactly the same and are healthy. Next time you shop at a grocery store, consider the fact that appearances of a fruit or vegetable do not determine its quality entirely.")
+                        Text("The movement highlights how certain foods are either thrown out or not purchased due to cosmetic standards- even though they are perfectly edible. The 'Ugly' Fruit and Veg campaign aims to end food waste solely based on grocery standards and what they look like. Some large grocer corporations such as Whole Foods are working to include a larger variety of fruits and vegetables. Nonprofits like the Misfit Market aims to sell produce at up to 40% lower prices due to the fact they accept unconventional-appearing produce. Now despite the appearance, these produce items taste exactly the same and are healthy. Next time you shop at a grocery store, consider the fact that appearances of a fruit or vegetable do not determine its quality entirely.")
                           .font(.headline)
                           .foregroundColor(Color("textcolor"))
                           .multilineTextAlignment(.center)

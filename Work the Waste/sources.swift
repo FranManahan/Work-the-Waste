@@ -200,7 +200,9 @@ struct sources: View {
                     
                     
                     .padding()
-                    
+                    .navigationTitle("Home")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .navigationBarHidden(true)
                 }
                 
                 
