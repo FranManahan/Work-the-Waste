@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-
-
 struct DecompositionCalculator: View {
 
                     
@@ -46,16 +44,18 @@ struct DecompositionCalculator: View {
                               }
                             }
                             if selectedMaterial == Material.plasticBag {
-                              Text("How long to decompose: \(plasticBagDecomp!)")
+                                Text("How long to decompose: \(plasticBagDecomp!)")
+                                    .fontWeight(.semibold)
                             }
                             if selectedMaterial == Material.beefJerky {
-                              Text("How long to decompose: \(beefJerkyDecomp!)")
+                                Text("How long to decompose: \(beefJerkyDecomp!)")
+                                    .fontWeight(.semibold)
                             }
-                            if selectedMaterial == Material.beefJerky {
-                              Text("How long to decompose: \(beefJerkyDecomp!)")
-                            }
+                           
                             if selectedMaterial == Material.mAndM {
-                              Text("How long to decompose: \(mAndMDecomp!)")
+                                Text("How long to decompose: \(mAndMDecomp!)")
+                                    .fontWeight(.semibold)
+                                
                             }
                             if selectedMaterial == Material.householdCleaner{
                               Text("How long to decompose: \(householdCleanerDecomp!)")
