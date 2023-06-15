@@ -48,7 +48,7 @@ struct ContentView: View {
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(10)
-                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
                             .frame(width: 300.0)
                             
                     }
@@ -60,7 +60,7 @@ struct ContentView: View {
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(10)
-                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
                             .frame(width: 300.0)
                             
                     }
@@ -72,7 +72,17 @@ struct ContentView: View {
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(10)
-                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                            .frame(width: 300.0)
+                    }
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    
+                    NavigationLink(destination: DecompositionCalculator()) {
+                        Image("DCbutton")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .cornerRadius(10)
+                            .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
                             .frame(width: 300.0)
                     }
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
