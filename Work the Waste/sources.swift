@@ -172,14 +172,6 @@ struct sources: View {
                                         
                                     }
                                     
-                                    Group {
-                                        Text("Decomp Calculator")
-                                            .font(.title)
-                                            .fontWeight(.semibold)
-                                            .foregroundColor(Color("textcolor"))
-                                            .padding(.bottom)
-                                    }
-                                    
                                 }
                             }
                             .cornerRadius(10)
